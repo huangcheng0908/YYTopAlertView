@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BD96A01D45FD06005022F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD969F1D45FD06005022F2 /* main.m */; };
+		04BD96A31D45FD06005022F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD96A21D45FD06005022F2 /* AppDelegate.m */; };
+		04BD96A61D45FD07005022F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD96A51D45FD07005022F2 /* ViewController.m */; };
+		04BD96A91D45FD07005022F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BD96A71D45FD07005022F2 /* Main.storyboard */; };
+		04BD96AB1D45FD07005022F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BD96AA1D45FD07005022F2 /* Assets.xcassets */; };
+		04BD96AE1D45FD07005022F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BD96AC1D45FD07005022F2 /* LaunchScreen.storyboard */; };
+		04BD96B91D45FD08005022F2 /* YYTopAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD96B81D45FD08005022F2 /* YYTopAlertViewTests.m */; };
+		04BD96C41D45FD0A005022F2 /* YYTopAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD96C31D45FD0A005022F2 /* YYTopAlertViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BD96B51D45FD08005022F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BD96931D45FD06005022F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BD969A1D45FD06005022F2;
+			remoteInfo = YYTopAlertView;
+		};
+		04BD96C01D45FD08005022F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BD96931D45FD06005022F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BD969A1D45FD06005022F2;
+			remoteInfo = YYTopAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BD969B1D45FD06005022F2 /* YYTopAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYTopAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BD969F1D45FD06005022F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BD96A11D45FD06005022F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BD96A21D45FD06005022F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BD96A41D45FD07005022F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04BD96A51D45FD07005022F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04BD96A81D45FD07005022F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BD96AA1D45FD07005022F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BD96AD1D45FD07005022F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04BD96AF1D45FD08005022F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BD96B41D45FD08005022F2 /* YYTopAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYTopAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BD96B81D45FD08005022F2 /* YYTopAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTopAlertViewTests.m; sourceTree = "<group>"; };
+		04BD96BA1D45FD08005022F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BD96BF1D45FD08005022F2 /* YYTopAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYTopAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BD96C31D45FD0A005022F2 /* YYTopAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTopAlertViewUITests.m; sourceTree = "<group>"; };
+		04BD96C51D45FD0A005022F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BD96981D45FD06005022F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD96B11D45FD08005022F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD96BC1D45FD08005022F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BD96921D45FD06005022F2 = {
+			isa = PBXGroup;
+			children = (
+				04BD969D1D45FD06005022F2 /* YYTopAlertView */,
+				04BD96B71D45FD08005022F2 /* YYTopAlertViewTests */,
+				04BD96C21D45FD09005022F2 /* YYTopAlertViewUITests */,
+				04BD969C1D45FD06005022F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BD969C1D45FD06005022F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BD969B1D45FD06005022F2 /* YYTopAlertView.app */,
+				04BD96B41D45FD08005022F2 /* YYTopAlertViewTests.xctest */,
+				04BD96BF1D45FD08005022F2 /* YYTopAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BD969D1D45FD06005022F2 /* YYTopAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				04BD96A11D45FD06005022F2 /* AppDelegate.h */,
+				04BD96A21D45FD06005022F2 /* AppDelegate.m */,
+				04BD96A41D45FD07005022F2 /* ViewController.h */,
+				04BD96A51D45FD07005022F2 /* ViewController.m */,
+				04BD96A71D45FD07005022F2 /* Main.storyboard */,
+				04BD96AA1D45FD07005022F2 /* Assets.xcassets */,
+				04BD96AC1D45FD07005022F2 /* LaunchScreen.storyboard */,
+				04BD96AF1D45FD08005022F2 /* Info.plist */,
+				04BD969E1D45FD06005022F2 /* Supporting Files */,
+			);
+			path = YYTopAlertView;
+			sourceTree = "<group>";
+		};
+		04BD969E1D45FD06005022F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BD969F1D45FD06005022F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BD96B71D45FD08005022F2 /* YYTopAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BD96B81D45FD08005022F2 /* YYTopAlertViewTests.m */,
+				04BD96BA1D45FD08005022F2 /* Info.plist */,
+			);
+			path = YYTopAlertViewTests;
+			sourceTree = "<group>";
+		};
+		04BD96C21D45FD09005022F2 /* YYTopAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04BD96C31D45FD0A005022F2 /* YYTopAlertViewUITests.m */,
+				04BD96C51D45FD0A005022F2 /* Info.plist */,
+			);
+			path = YYTopAlertViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BD969A1D45FD06005022F2 /* YYTopAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BD96C81D45FD0A005022F2 /* Build configuration list for PBXNativeTarget "YYTopAlertView" */;
+			buildPhases = (
+				04BD96971D45FD06005022F2 /* Sources */,
+				04BD96981D45FD06005022F2 /* Frameworks */,
+				04BD96991D45FD06005022F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYTopAlertView;
+			productName = YYTopAlertView;
+			productReference = 04BD969B1D45FD06005022F2 /* YYTopAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BD96B31D45FD08005022F2 /* YYTopAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BD96CB1D45FD0A005022F2 /* Build configuration list for PBXNativeTarget "YYTopAlertViewTests" */;
+			buildPhases = (
+				04BD96B01D45FD08005022F2 /* Sources */,
+				04BD96B11D45FD08005022F2 /* Frameworks */,
+				04BD96B21D45FD08005022F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BD96B61D45FD08005022F2 /* PBXTargetDependency */,
+			);
+			name = YYTopAlertViewTests;
+			productName = YYTopAlertViewTests;
+			productReference = 04BD96B41D45FD08005022F2 /* YYTopAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04BD96BE1D45FD08005022F2 /* YYTopAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BD96CE1D45FD0A005022F2 /* Build configuration list for PBXNativeTarget "YYTopAlertViewUITests" */;
+			buildPhases = (
+				04BD96BB1D45FD08005022F2 /* Sources */,
+				04BD96BC1D45FD08005022F2 /* Frameworks */,
+				04BD96BD1D45FD08005022F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BD96C11D45FD08005022F2 /* PBXTargetDependency */,
+			);
+			name = YYTopAlertViewUITests;
+			productName = YYTopAlertViewUITests;
+			productReference = 04BD96BF1D45FD08005022F2 /* YYTopAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BD96931D45FD06005022F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jack YY";
+				TargetAttributes = {
+					04BD969A1D45FD06005022F2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					04BD96B31D45FD08005022F2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 04BD969A1D45FD06005022F2;
+					};
+					04BD96BE1D45FD08005022F2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 04BD969A1D45FD06005022F2;
+					};
+				};
+			};
+			buildConfigurationList = 04BD96961D45FD06005022F2 /* Build configuration list for PBXProject "YYTopAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BD96921D45FD06005022F2;
+			productRefGroup = 04BD969C1D45FD06005022F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BD969A1D45FD06005022F2 /* YYTopAlertView */,
+				04BD96B31D45FD08005022F2 /* YYTopAlertViewTests */,
+				04BD96BE1D45FD08005022F2 /* YYTopAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BD96991D45FD06005022F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BD96AE1D45FD07005022F2 /* LaunchScreen.storyboard in Resources */,
+				04BD96AB1D45FD07005022F2 /* Assets.xcassets in Resources */,
+				04BD96A91D45FD07005022F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD96B21D45FD08005022F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD96BD1D45FD08005022F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BD96971D45FD06005022F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BD96A61D45FD07005022F2 /* ViewController.m in Sources */,
+				04BD96A31D45FD06005022F2 /* AppDelegate.m in Sources */,
+				04BD96A01D45FD06005022F2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD96B01D45FD08005022F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BD96B91D45FD08005022F2 /* YYTopAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD96BB1D45FD08005022F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BD96C41D45FD0A005022F2 /* YYTopAlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BD96B61D45FD08005022F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BD969A1D45FD06005022F2 /* YYTopAlertView */;
+			targetProxy = 04BD96B51D45FD08005022F2 /* PBXContainerItemProxy */;
+		};
+		04BD96C11D45FD08005022F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BD969A1D45FD06005022F2 /* YYTopAlertView */;
+			targetProxy = 04BD96C01D45FD08005022F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BD96A71D45FD07005022F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BD96A81D45FD07005022F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04BD96AC1D45FD07005022F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BD96AD1D45FD07005022F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BD96C61D45FD0A005022F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04BD96C71D45FD0A005022F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BD96C91D45FD0A005022F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YYTopAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYTopAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04BD96CA1D45FD0A005022F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YYTopAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYTopAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04BD96CC1D45FD0A005022F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYTopAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYTopAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYTopAlertView.app/YYTopAlertView";
+			};
+			name = Debug;
+		};
+		04BD96CD1D45FD0A005022F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYTopAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYTopAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYTopAlertView.app/YYTopAlertView";
+			};
+			name = Release;
+		};
+		04BD96CF1D45FD0A005022F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYTopAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYTopAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYTopAlertView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04BD96D01D45FD0A005022F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYTopAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.novasoft.YYTopAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYTopAlertView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BD96961D45FD06005022F2 /* Build configuration list for PBXProject "YYTopAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BD96C61D45FD0A005022F2 /* Debug */,
+				04BD96C71D45FD0A005022F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BD96C81D45FD0A005022F2 /* Build configuration list for PBXNativeTarget "YYTopAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BD96C91D45FD0A005022F2 /* Debug */,
+				04BD96CA1D45FD0A005022F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04BD96CB1D45FD0A005022F2 /* Build configuration list for PBXNativeTarget "YYTopAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BD96CC1D45FD0A005022F2 /* Debug */,
+				04BD96CD1D45FD0A005022F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04BD96CE1D45FD0A005022F2 /* Build configuration list for PBXNativeTarget "YYTopAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BD96CF1D45FD0A005022F2 /* Debug */,
+				04BD96D01D45FD0A005022F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BD96931D45FD06005022F2 /* Project object */;
+}
