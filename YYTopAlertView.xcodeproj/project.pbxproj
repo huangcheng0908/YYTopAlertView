@@ -15,6 +15,8 @@
 		04BD96AE1D45FD07005022F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BD96AC1D45FD07005022F2 /* LaunchScreen.storyboard */; };
 		04BD96B91D45FD08005022F2 /* YYTopAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD96B81D45FD08005022F2 /* YYTopAlertViewTests.m */; };
 		04BD96C41D45FD0A005022F2 /* YYTopAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD96C31D45FD0A005022F2 /* YYTopAlertViewUITests.m */; };
+		04BD96D41D45FD3B005022F2 /* YYTopAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD96D31D45FD3B005022F2 /* YYTopAlertView.m */; };
+		04BD96D61D45FD46005022F2 /* YYTopAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BD96D51D45FD46005022F2 /* YYTopAlertView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		04BD96BF1D45FD08005022F2 /* YYTopAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYTopAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BD96C31D45FD0A005022F2 /* YYTopAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTopAlertViewUITests.m; sourceTree = "<group>"; };
 		04BD96C51D45FD0A005022F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BD96D21D45FD3B005022F2 /* YYTopAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTopAlertView.h; sourceTree = "<group>"; };
+		04BD96D31D45FD3B005022F2 /* YYTopAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTopAlertView.m; sourceTree = "<group>"; };
+		04BD96D51D45FD46005022F2 /* YYTopAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYTopAlertView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		04BD969D1D45FD06005022F2 /* YYTopAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				04BD96D11D45FD14005022F2 /* YYTopAlertView */,
 				04BD96A11D45FD06005022F2 /* AppDelegate.h */,
 				04BD96A21D45FD06005022F2 /* AppDelegate.m */,
 				04BD96A41D45FD07005022F2 /* ViewController.h */,
@@ -138,6 +144,16 @@
 				04BD96C51D45FD0A005022F2 /* Info.plist */,
 			);
 			path = YYTopAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		04BD96D11D45FD14005022F2 /* YYTopAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				04BD96D21D45FD3B005022F2 /* YYTopAlertView.h */,
+				04BD96D31D45FD3B005022F2 /* YYTopAlertView.m */,
+				04BD96D51D45FD46005022F2 /* YYTopAlertView.xib */,
+			);
+			name = YYTopAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +262,7 @@
 				04BD96AE1D45FD07005022F2 /* LaunchScreen.storyboard in Resources */,
 				04BD96AB1D45FD07005022F2 /* Assets.xcassets in Resources */,
 				04BD96A91D45FD07005022F2 /* Main.storyboard in Resources */,
+				04BD96D61D45FD46005022F2 /* YYTopAlertView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +290,7 @@
 				04BD96A61D45FD07005022F2 /* ViewController.m in Sources */,
 				04BD96A31D45FD06005022F2 /* AppDelegate.m in Sources */,
 				04BD96A01D45FD06005022F2 /* main.m in Sources */,
+				04BD96D41D45FD3B005022F2 /* YYTopAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
